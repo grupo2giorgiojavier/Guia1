@@ -1,2 +1,2 @@
-#Curos EIE507
+#Curso EIE507
 # Grupo 2
