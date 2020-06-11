@@ -8,6 +8,6 @@ nombre=str(input("Escriba: "))
 #Concatenacion del nombre con el espacio de separacion
 nombre=nombre +  ' '
 #Repeticion
-nombre=nombre*100
+nombre=nombre*1000
 # Impresion de la string
 print(nombre)

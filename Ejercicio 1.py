@@ -10,8 +10,7 @@ while True:
         radio=float(input("Escriba el radio del circulo: "))
         break
     except ValueError:
-        print("Lo ingresado no es numero, favor de ingresar un numero correcto!")
-        break   
+        print("Lo ingresado no es numero, favor de ingresar un numero correcto!")   
 # Calculo del area
 area=2*math.pi*radio
 #impresion del numero obtenido

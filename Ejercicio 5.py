@@ -15,14 +15,14 @@ while True:
         break
     except ValueError:
         print("Error en un numero , vuelva a intentarlo")
-        break
+        
 
 # Si los numeros estan bien haran las indicaciones correspondientes al ejercicio
-if num2==num1^2:
+if num2==pow(num1,2):
     print("<<El segundo es el cuadrado exacto del primero>>")
-elif num2<num1^2:
+elif num2<pow(num1,2):
     print("<<El segundo es menor que el cuadrado del primero>>")
-elif num2>num1^2:
-    print("<<El segundo es menor que el cuadrado del primero>>")
+elif num2>pow(num1,2):
+    print("<<El segundo es mayor que el cuadrado del primero>>")
 else:
     print("<<Los numeros no cumplen las condiciones solicitadas!>>")
