@@ -9,4 +9,5 @@ nombre=str(input("Escriba: "))
 nombre=nombre +  ' '
 #Repeticion
 nombre=nombre*100
+# Impresion de la string
 print(nombre)
